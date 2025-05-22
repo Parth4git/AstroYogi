@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="bg-gradient-to-b from-blue-50 to-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gradient-to-b from-blue-100 to-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -19,7 +19,7 @@ const Testimonials = () => {
           {/* Testimonial 1 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
             <div className="flex items-center mb-4">
-              <div className="bg-blue-100 text-blue-600 font-bold text-xl rounded-full w-12 h-12 flex items-center justify-center mr-4">
+              <div className="bg-cyan-100 text-blue-600 font-bold text-xl rounded-full w-12 h-12 flex items-center justify-center mr-4">
                 A
               </div>
               <div>
@@ -38,7 +38,7 @@ const Testimonials = () => {
           {/* Testimonial 2 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
             <div className="flex items-center mb-4">
-              <div className="bg-blue-100 text-blue-600 font-bold text-xl rounded-full w-12 h-12 flex items-center justify-center mr-4">
+              <div className="bg-cyan-100 text-blue-600 font-bold text-xl rounded-full w-12 h-12 flex items-center justify-center mr-4">
                 K
               </div>
               <div>
@@ -57,7 +57,7 @@ const Testimonials = () => {
           {/* Testimonial 3 */}
           <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
             <div className="flex items-center mb-4">
-              <div className="bg-blue-100 text-blue-600 font-bold text-xl rounded-full w-12 h-12 flex items-center justify-center mr-4">
+              <div className="bg-cyan-100 text-blue-600 font-bold text-xl rounded-full w-12 h-12 flex items-center justify-center mr-4">
                 K
               </div>
               <div>

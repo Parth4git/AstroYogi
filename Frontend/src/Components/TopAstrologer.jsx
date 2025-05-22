@@ -114,7 +114,7 @@ const TopAstrologersSection = () => {
         <button
           onClick={handlePrev}
           disabled={startIndex === 0}
-          className="absolute -left-8 top-1/2 transform -translate-y-1/2 text-purple-500 hover:text-purple-700 disabled:opacity-30"
+          className="absolute -left-8 top-1/2 transform -translate-y-1/2 text-cyan-500 hover:text-cyan-700 disabled:opacity-30"
         >
           <FaChevronLeft size={28} />
         </button>
@@ -136,12 +136,12 @@ const TopAstrologersSection = () => {
                     className="w-full h-full object-cover"
                   />
                   {astro.mostChoice && (
-                    <div className="absolute top-2 right-2 bg-purple-600 text-white text-xs px-2 py-1 rounded-md font-semibold shadow">
+                    <div className="absolute top-2 right-2 bg-cyan-300 text-white text-xs px-2 py-1 rounded-md font-semibold shadow">
                       Most Choice
                     </div>
                   )}
                   <div className="absolute bottom-0 w-full bg-gradient-to-t from-black/80 to-transparent px-4 py-3 text-left">
-                    <div className="flex items-center gap-1 mb-4 bg-amber-800 w-16 text-center rounded-full text-yellow-400 text-lg font-semibold">
+                    <div className="flex items-center gap-1 mb-4 bg-cyan-600 w-16 text-center rounded-full text-yellow-400 text-lg font-semibold">
                       <FaStar className="ml-2" /> {astro.rating}
                     </div>
                     <h3 className="text-white font-semibold text-3xl mb-4">
@@ -160,7 +160,7 @@ const TopAstrologersSection = () => {
                         </div>
                       ))}
                     </div>
-                    <p className="text-white mt-1">
+                    <p className="text-amber-300 mt-1">
                       Exp.:{" "}
                       <span className="font-medium text-xl">
                         {astro.experience} Yrs
@@ -177,7 +177,7 @@ const TopAstrologersSection = () => {
         <button
           onClick={handleNext}
           disabled={startIndex + 3 >= astrologers.length}
-          className="absolute -right-8 top-1/2 transform -translate-y-1/2 text-purple-500 hover:text-purple-700 disabled:opacity-30"
+          className="absolute -right-8 top-1/2 transform -translate-y-1/2 text-cyan-500 hover:text-cyan-700 disabled:opacity-30"
         >
           <FaChevronRight size={28} />
         </button>

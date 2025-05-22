@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-8xl mx-auto px-4 py-3 flex items-center justify-between">
@@ -31,7 +34,12 @@ const Header = () => {
 
         {/* Login/Register Button */}
         <div className="hidden md:block">
-          <button className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-600 transition font-semibold">
+          <button
+            className="bg-blue-800 text-white px-4 py-2 rounded-4xl hover:bg-blue-600 transition font-semibold"
+            onClick={() => {
+              navigate("/register");
+            }}
+          >
             Login / Register
           </button>
         </div>

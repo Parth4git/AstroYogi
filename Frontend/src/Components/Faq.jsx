@@ -52,7 +52,7 @@ const FAQ = () => {
               className="border border-gray-200 rounded-lg overflow-hidden"
             >
               <button
-                className="w-full flex justify-between items-center p-6 text-left bg-gray-50 hover:bg-gray-100 transition-colors"
+                className="w-full flex justify-between items-center p-6 text-left bg-blue-50 hover:bg-blue-100 transition-colors"
                 onClick={() => toggleAccordion(index)}
               >
                 <h3 className="text-lg font-medium text-gray-800">
@@ -78,7 +78,7 @@ const FAQ = () => {
 
         <div className="mt-12 text-center">
           <p className="text-gray-600 mb-6">Still have questions?</p>
-          <button className="px-6 py-3 bg-cyan-600 text-white font-medium rounded-lg hover:bg-cyan-700 transition-colors shadow-md">
+          <button className="px-6 py-3 bg-cyan-500 text-white font-medium rounded-lg hover:bg-cyan-700 transition-colors shadow-md">
             Contact Our Support Team
           </button>
         </div>

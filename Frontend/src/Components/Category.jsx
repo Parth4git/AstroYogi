@@ -72,7 +72,7 @@ const CategoryMarquee = () => {
             {categories.map((category, index) => (
               <div key={index} className="inline-flex flex-col items-center">
                 {/* Icon-only circular card */}
-                <div className="flex items-center justify-center w-24 h-24 rounded-full bg-cyan-300 shadow-lg hover:bg-blue-600 transition-all cursor-pointer">
+                <div className="flex items-center justify-center w-24 h-24 rounded-full bg-cyan-200 shadow-lg hover:bg-blue-400 transition-all cursor-pointer">
                   {category.icon}
                 </div>
                 {/* Category name below the card */}

@@ -32,7 +32,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-[80vh] overflow-hidden">
+    <section className="relative w-full h-[70vh] overflow-hidden">
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -50,6 +50,14 @@ const Hero = () => {
               {slide.heading}
             </h2>
             <p className="text-lg md:text-2xl">{slide.subtext}</p>
+            <div className="flex flex-col md:flex-row gap-4 mt-6">
+              <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded mt-8">
+                Explore Expert
+              </button>
+              <button className="bg-transparent border-2 border-white text-white px-6 py-2 rounded mt-8 hover:bg-white hover:text-blue-500 transition duration-300">
+                Learn More
+              </button>
+            </div>
           </div>
         </div>
       ))}

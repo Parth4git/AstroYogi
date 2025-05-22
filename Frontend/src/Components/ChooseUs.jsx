@@ -11,9 +11,9 @@ const stats = [
 
 const ChooseUs = () => {
   return (
-    <section className="bg-gray-50 py-16">
+    <section className="bg-gradient-to-t from-blue-100 to-white py-16">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-10">Why Choose Us</h2>
+        <h2 className="text-4xl font-bold mb-10">Why Choose Us</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <motion.div
@@ -24,10 +24,12 @@ const ChooseUs = () => {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
             >
-              <div className="text-4xl font-extrabold text-cyan-600">
+              <div className="text-4xl font-extrabold text-cyan-400">
                 <CountUp end={stat.value} duration={2} />+
               </div>
-              <p className="text-lg mt-2 text-gray-700">{stat.label}</p>
+              <p className="text-lg mt-2 text-blue-800 font-semibold">
+                {stat.label}
+              </p>
             </motion.div>
           ))}
         </div>

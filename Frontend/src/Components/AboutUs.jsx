@@ -13,7 +13,7 @@ const AboutUs = () => {
             <img
               src="https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
               alt="Astrology consultation"
-              className="rounded-lg shadow-xl w-full h-auto object-cover"
+              className="rounded-lg shadow-xl w-full h-[520px] object-cover"
             />
           </div>
 
@@ -54,7 +54,7 @@ const AboutUs = () => {
               </div>
             </div>
 
-            <button className="mt-6 px-8 py-3 bg-cyan-600 text-white font-medium rounded-lg hover:bg-cyan-700 transition-colors shadow-md">
+            <button className="mt-6 px-8 py-3 bg-cyan-500 text-white font-medium rounded-lg hover:bg-cyan-700 transition-colors shadow-md">
               Explore Our Astrologers
             </button>
           </div>
